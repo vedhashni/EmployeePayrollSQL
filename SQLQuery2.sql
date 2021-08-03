@@ -68,6 +68,10 @@ update employee_payroll set PhoneNumber=9845127810 where name='Karthick';
 update employee_payroll set PhoneNumber=8745123654 where name='Gayatri';
 update employee_payroll set PhoneNumber=9874512458 where name='Divya';
 
+update employee_payroll set Department='HR' where name='Ashok';
+update employee_payroll set Department='Product development' where name='Gayatri';
+update employee_payroll set Department='Business development' where name='Divya';
+update employee_payroll set Department='Research development' where name='Karthick';
 
 
 alter table employee_payroll add Address varchar(25) default 'Not Provided';
